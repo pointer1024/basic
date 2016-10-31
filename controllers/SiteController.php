@@ -122,4 +122,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    /**
+     * Displays info page.
+     *
+     * @return string
+     */
+    public function actionInfo()
+    {
+        return $this->render('info');
+    }
 }
